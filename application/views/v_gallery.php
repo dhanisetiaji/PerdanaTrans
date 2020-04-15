@@ -35,7 +35,24 @@
             }
 
         ?>
+	<style>
+		body.fh5co-overflow.offcanvas-visible div#fh5co-offcanvas {
+			display:block;
+		}
 
+		body div#fh5co-offcanvas {
+			display:none;
+		}
+		@media only screen and (max-width: 600px) {
+			body.fh5co-overflow.offcanvas-visible div#fh5co-offcanvas {
+				display:block;
+			}
+
+			body div#fh5co-offcanvas {
+				display:none;
+			}
+		}
+	</style>
 	</head>
 	<body>	
 
